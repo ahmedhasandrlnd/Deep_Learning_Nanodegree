@@ -24,6 +24,8 @@
 	1. [![Learn Gate](http://img.youtube.com/vi/aVHVI7ovbHY/0.jpg)](http://www.youtube.com/watch?v=aVHVI7ovbHY)
 	1. [youtube link](https://www.youtube.com/watch?v=aVHVI7ovbHY)
 1. The Forget Gate
+	1. [![Forget Gate](http://img.youtube.com/vi/iWxpfxLUPSU/0.jpg)](http://www.youtube.com/watch?v=iWxpfxLUPSU)
+	1. [youtube link](https://www.youtube.com/watch?v=iWxpfxLUPSU)
 1. The Remember Gate
 1. The Use Gate
 1. Putting it All Together
