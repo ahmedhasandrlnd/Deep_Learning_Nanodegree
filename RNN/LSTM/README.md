@@ -11,7 +11,7 @@
 1. RNN vs LSTM: 
 	1. [![RNN vs LSTM](http://img.youtube.com/vi/70MgF-IwAr8/0.jpg)](http://www.youtube.com/watch?v=70MgF-IwAr8)
 	1. [youtube link](https://www.youtube.com/watch?v=70MgF-IwAr8)
-	> RNN has a hard-time storing long-term memory due to vanishing gradients. This is where LSTM come to the resque.
+	> RNN has a hardtime storing long-term memory due to vanishing gradients. This is where LSTM come to the resque.
 
 1. Basics of LSTM
 	1. [![Basics of LSTM](http://img.youtube.com/vi/gjb68a4XsqE/0.jpg)](http://www.youtube.com/watch?v=gjb68a4XsqE)
@@ -44,9 +44,13 @@
 1. Quiz
 	![LSTM Cell](images/lstm_cell.png)
 	![LSTM Quiz](images/lstm_quiz.png)
+
 1. Other architectures
 	1. [![Other](http://img.youtube.com/vi/MsxFDuYlTuQ/0.jpg)](http://www.youtube.com/watch?v=MsxFDuYlTuQ)
 	1. [youtube link](https://www.youtube.com/watch?time_continue=7&v=MsxFDuYlTuQ)
+	1. [GRU Lecture Note](http://www.cs.toronto.edu/~guerzhoy/321/lec/W09/rnn_gated.pdf)
+	1. LSTM with Peephole Connections
+
 
 
 
