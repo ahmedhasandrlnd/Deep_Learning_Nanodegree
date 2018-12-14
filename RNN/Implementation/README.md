@@ -7,7 +7,7 @@
 >* Pre-process sequential data
 >* Represent Memory
 1. [Time-Series Prediction](https://www.youtube.com/watch?time_continue=4&v=xV5jHLFfJbQ)
-1. Training & Memory
+1. [Training & Memory](https://www.youtube.com/watch?time_continue=7&v=sx7T_KP5v9I)
 1. Character-wise RNNs
 1. Sequence Batching
 1. Pre-Notebook: Character-Level RNN
