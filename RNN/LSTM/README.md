@@ -14,18 +14,18 @@
 1. [Architecture of LSTM](Lessons/Lesson4.md)
 ![LSTM Architecture](images/lstm_arch.png)
 	1. [The Learn Gate](Lessons/Lesson5.md)
-	![Learn Gate](images/learn_gate.png)
+		![Learn Gate](images/learn_gate.png)
 	1. [The Forget Gate](Lessons/Lesson6.md)
-	![Forget Gate](images/forget_gate.png)
+		![Forget Gate](images/forget_gate.png)
 	1. [The Remember Gate](Lessons/Lesson7.md)
-	![Remember Gate](images/remember_gate.png)
+		![Remember Gate](images/remember_gate.png)
 	1. [The Use Gate](Lessons/Lesson8.md)
-	![Use Gate](images/use_gate.png)
+		![Use Gate](images/use_gate.png)
 
 1. [Putting it All Together](Lessons/Lesson9.md)
 1. [Quiz](Lessons/Lesson10.md)
 1. [Other architectures](Lessons/Lesson11.md)
-	1. GRU Lecture Note
+	1. Gated Recurrent Unit(GRU) [Lecture](http://www.cs.toronto.edu/~guerzhoy/321/lec/W09/rnn_gated.pdf) 
 	1. LSTM with Peephole Connections
 
 
