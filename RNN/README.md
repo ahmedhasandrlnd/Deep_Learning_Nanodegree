@@ -3,7 +3,7 @@
 ## Lessons
 
 1. Recurrent Neural Networks
-1. Long Short-Term Memory Networks (LSTMs)
+1. [Long Short-Term Memory Networks (LSTMs)](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN/LSTM)
 1. Implementation of RNN & LSTM 
 1. Hyperparameters
 1. Embeddings & Word2Vec
