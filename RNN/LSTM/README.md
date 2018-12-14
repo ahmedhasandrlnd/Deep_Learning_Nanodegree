@@ -23,13 +23,19 @@
 1. The Learn Gate
 	1. [![Learn Gate](http://img.youtube.com/vi/aVHVI7ovbHY/0.jpg)](http://www.youtube.com/watch?v=aVHVI7ovbHY)
 	1. [youtube link](https://www.youtube.com/watch?v=aVHVI7ovbHY)
+
 1. The Forget Gate
 	1. [![Forget Gate](http://img.youtube.com/vi/iWxpfxLUPSU/0.jpg)](http://www.youtube.com/watch?v=iWxpfxLUPSU)
 	1. [youtube link](https://www.youtube.com/watch?v=iWxpfxLUPSU)
+
 1. The Remember Gate
 	1. [![Remember Gate](http://img.youtube.com/vi/0qlm86HaXuU/0.jpg)](http://www.youtube.com/watch?v=0qlm86HaXuU)
 	1. [youtube link](https://www.youtube.com/watch?time_continue=1&v=0qlm86HaXuU)
+
 1. The Use Gate
+	1. [![Use Gate](http://img.youtube.com/vi/5Ifolm1jTdY/0.jpg)](http://www.youtube.com/watch?v=5Ifolm1jTdY)
+	1. [youtube link](https://www.youtube.com/watch?v=5Ifolm1jTdY)
+
 1. Putting it All Together
 1. Quiz
 1. Other architectures
