@@ -10,11 +10,17 @@
 1. [RNN vs LSTM](Lessons/Lesson2.md): 
 	> RNN has a hardtime storing long-term memory due to vanishing gradients. This is where LSTM come to the resque.
 1. [Basics of LSTM](Lessons/Lesson3.md)
+![LSTM Basic](images/lstm_basic.png)
 1. [Architecture of LSTM](Lessons/Lesson4.md)
+![LSTM Architecture](images/lstm_arch.png)
 	1. [The Learn Gate](Lessons/Lesson5.md)
+	![Learn Gate](images/learn_gate.png)
 	1. [The Forget Gate](Lessons/Lesson6.md)
+	![Forget Gate](images/forget_gate.png)
 	1. [The Remember Gate](Lessons/Lesson7.md)
+	![Remember Gate](images/remember_gate.png)
 	1. [The Use Gate](Lessons/Lesson8.md)
+	![Use Gate](images/use_gate.png)
 
 1. [Putting it All Together](Lessons/Lesson9.md)
 1. [Quiz](Lessons/Lesson10.md)
