@@ -6,7 +6,7 @@
 > Two Challenges
 >* Pre-process sequential data
 >* Represent Memory
-1. Time-Series Prediction
+1. [Time-Series Prediction](https://www.youtube.com/watch?time_continue=4&v=xV5jHLFfJbQ)
 1. Training & Memory
 1. Character-wise RNNs
 1. Sequence Batching
