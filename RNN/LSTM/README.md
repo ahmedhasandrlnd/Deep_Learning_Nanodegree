@@ -45,6 +45,8 @@
 	![LSTM Cell](images/lstm_cell.png)
 	![LSTM Quiz](images/lstm_quiz.png)
 1. Other architectures
+	1. [![other arch](http://img.youtube.com/vi/IMsxFDuYlTuQ/0.jpg)](http://www.youtube.com/watch?v=MsxFDuYlTuQ)
+	1. [youtube link](https://www.youtube.com/watch?time_continue=7&v=MsxFDuYlTuQ)
 
 
 
