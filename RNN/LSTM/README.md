@@ -14,6 +14,9 @@
 	1. [![Basics of LSTM](http://img.youtube.com/vi/gjb68a4XsqE/0.jpg)](http://www.youtube.com/watch?v=gjb68a4XsqE)
 	1. [youtube link](https://www.youtube.com/watch?v=gjb68a4XsqE)
 1. Architecture of LSTM
+	1. [![Basics of LSTM](http://img.youtube.com/vi/0MgF-IwAr8/0.jpg)](http://www.youtube.com/watch?v=0MgF-IwAr8)
+	1. [youtube link](https://www.youtube.com/watch?v=70MgF-IwAr8)
+
 1. The Learn Gate
 1. The Forget Gate
 1. The Remember Gate
