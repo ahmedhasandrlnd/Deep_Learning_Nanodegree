@@ -46,9 +46,9 @@
 * Sources & References
 	* Practical recommendations for gradient-based training of deep architectures by Yoshua Bengio
 
-	* Deep Learning book - chapter 11.4: Selecting Hyperparameters by Ian Goodfellow, Yoshua Bengio, Aaron Courville
+	* [Deep Learning book - chapter 11.4: Selecting Hyperparameters by Ian Goodfellow, Yoshua Bengio, Aaron Courville](http://www.deeplearningbook.org/contents/guidelines.html)
 
-	* Neural Networks and Deep Learning book - Chapter 3: How to choose a neural network's hyper-parameters? by Michael Nielsen
+	* [Neural Networks and Deep Learning book - Chapter 3: How to choose a neural network's hyper-parameters? by Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap3.html#how_to_choose_a_neural_network's_hyper-parameters)
 
 	* Efficient BackProp (pdf) by Yann LeCun
 
