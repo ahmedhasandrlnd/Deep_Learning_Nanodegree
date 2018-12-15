@@ -10,7 +10,7 @@
 * [Time-Series Prediction](https://www.youtube.com/watch?time_continue=4&v=xV5jHLFfJbQ)
 >This video is a walkthrough of code that you can find in our public Github repository, if you navigate to recurrent-neural-networks > time-series and the Simple_RNN.ipynb notebook. Feel free to go through this code on your own, locally.
 * [Training & Memory](https://www.youtube.com/watch?time_continue=7&v=sx7T_KP5v9I)
->[Quiz](images/Quiz_implementation_lstm.png)
+	* [Quiz](images/Quiz_implementation_lstm.png)
 * [Character-wise RNNs](https://www.youtube.com/watch?v=dXl3eWCGLdU)
 * [Sequence Batching](https://www.youtube.com/watch?v=Z4OiyU0Cldg)
 * Pre-Notebook: Character-Level RNN
@@ -21,16 +21,16 @@
 Know that the code is correct even if the title has a typo :)
 * [Batching Data, Solution](https://www.youtube.com/watch?v=9Eg0wf3eW-k)
 * [Defining the Model](https://www.youtube.com/watch?v=_LWzyqq4hCY)
-Contiguous variables
+	* Contiguous variables
 If you are stacking up multiple LSTM outputs, it may be necessary to use .contiguous() to reshape the output. The notebook and Github repo code has been updated to include this use case in the forward function of the model:
 
-`
+	* `
  	#stack up LSTM outputs
 	out = out.contiguous().view(-1, self.n_hidden)
-`
+	`
 * [Char-RNN, Solution](https://www.youtube.com/watch?v=ed33qePHrJM)
 * [Making Predictions](https://www.youtube.com/watch?time_continue=9&v=BhrpV3kwATo)
-[sketch-rnn by Magenta](sketch-rnn by Magenta)
+	* [sketch-rnn by Magenta](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
 
 
 
