@@ -9,7 +9,7 @@
 1. [Time-Series Prediction](https://www.youtube.com/watch?time_continue=4&v=xV5jHLFfJbQ)
 >This video is a walkthrough of code that you can find in our public Github repository, if you navigate to recurrent-neural-networks > time-series and the Simple_RNN.ipynb notebook. Feel free to go through this code on your own, locally.
 1. [Training & Memory](https://www.youtube.com/watch?time_continue=7&v=sx7T_KP5v9I)
->![Quiz](images/Quiz_implementation_lstm.png)
+>[Quiz](images/Quiz_implementation_lstm.png)
 1. [Character-wise RNNs](https://www.youtube.com/watch?v=dXl3eWCGLdU)
 1. [Sequence Batching](https://www.youtube.com/watch?v=Z4OiyU0Cldg)
 1. Pre-Notebook: Character-Level RNN
