@@ -22,8 +22,10 @@ Know that the code is correct even if the title has a typo :)
 1. [Defining the Model](https://www.youtube.com/watch?v=_LWzyqq4hCY)
 > Contiguous variables
 If you are stacking up multiple LSTM outputs, it may be necessary to use .contiguous() to reshape the output. The notebook and Github repo code has been updated to include this use case in the forward function of the model:
-`#stack up LSTM outputs
-out = out.contiguous().view(-1, self.n_hidden)`
+`
+ 	#stack up LSTM outputs
+	out = out.contiguous().view(-1, self.n_hidden)
+`
 1. [Char-RNN, Solution](https://www.youtube.com/watch?v=ed33qePHrJM)
 1. [Making Predictions](https://www.youtube.com/watch?time_continue=9&v=BhrpV3kwATo)
 > [sketch-rnn by Magenta](sketch-rnn by Magenta)
