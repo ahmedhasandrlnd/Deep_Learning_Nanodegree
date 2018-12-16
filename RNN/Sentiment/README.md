@@ -6,7 +6,6 @@
 
 1. Pre-Notebook: Sentiment RNN
 > Clone the repo from Github and open the notebook Sentiment_RNN_Exercise.ipynb in the sentiment-rnn folder. 
-
 1.  Notebook: Sentiment RNN
 
 
