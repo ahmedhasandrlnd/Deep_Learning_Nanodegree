@@ -21,3 +21,10 @@
  * [Batching Data, Solution](https://www.youtube.com/watch?time_continue=12&v=nu2rjLzt1HI)
  * [Word2Vec Model](https://www.youtube.com/watch?v=7BEYWhym8lI)
  * [Model & Validations](https://www.youtube.com/watch?time_continue=1&v=GKDCq8J76tM)
+ * [Negative Sampling](https://www.youtube.com/watch?time_continue=15&v=gnCwdegYNsQ)
+ * Pre-Notebook: Negative Sampling
+ > Clone the repo from Github and open the notebook Negative_Sampling_Exercise.ipynb in the word2vec-embeddings folder.
+ * Notebook: Negative Sampling
+ * [SkipGramNeg, Model Definition](https://www.youtube.com/watch?time_continue=20&v=e7ZrzpyXNDs)
+ * [Complete Model & Custom Loss](https://www.youtube.com/watch?time_continue=19&v=7SqNN_eUAdc)
+
