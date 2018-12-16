@@ -11,3 +11,13 @@
 	* Skip-gram
 	* [Word2Vec Mikolov](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/October/5bc56d28_word2vec-mikolov/word2vec-mikolov.pdf)
 	* [Distributed Representation](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/October/5bc56da8_distributed-representations-mikolov2/distributed-representations-mikolov2.pdf)
+* Pre-Notebook: Word2Vec, SkipGram
+> Clone the repo from Github and open the notebook Skip_Grams_Exercise.ipynb in the word2vec-embeddings folder.
+ * Notebook: Word2Vec, SkipGram
+ * [Data & Subsampling](https://www.youtube.com/watch?time_continue=4&v=7SJXv2BQzZA)
+ 	* [Quiz1](images/quiz1.png)
+ * [Subsampling Solution1](https://www.youtube.com/watch?v=YXruURuFD7g)
+ * [Context Word Targets](https://www.youtube.com/watch?v=DJN9MzD7ctY)
+ * [Batching Data, Solution](https://www.youtube.com/watch?time_continue=12&v=nu2rjLzt1HI)
+ * [Word2Vec Model](https://www.youtube.com/watch?v=7BEYWhym8lI)
+ * [Model & Validations](https://www.youtube.com/watch?time_continue=1&v=GKDCq8J76tM)
