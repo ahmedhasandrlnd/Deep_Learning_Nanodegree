@@ -38,6 +38,12 @@
 	1. Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge [pdf](https://arxiv.org/pdf/1708.02711.pdf)
 	1. Visual Question Answering: A Survey of Methods and Datasets [pdf](https://arxiv.org/pdf/1607.05910.pdf)
 1. [Other Attention Methods](https://www.youtube.com/watch?time_continue=1&v=VmsR9FVpQiM)
+	1. Attention Is All You Need [Paper](https://arxiv.org/abs/1706.03762)
+	1. Attention is all you need attentional neural network models – Łukasz Kaiser [Talk](https://www.youtube.com/watch?v=rBCqOTEfxvg)
+1. [The Transformer and Self-Attention](https://www.youtube.com/watch?v=F-XN72bQiMQ)
+1. Notebook: Attention Basics
+1. [SOLUTION]: Attention Basics
+1. Outro
 
 
 
