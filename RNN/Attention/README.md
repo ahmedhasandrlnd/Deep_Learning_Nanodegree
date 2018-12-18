@@ -7,7 +7,7 @@
 	1. Image captioning
 	1. Speech recognition
 	1. Text summarization
-1. [Encoders and Decoders](https://www.youtube.com/watch?v=tDJBDwriJYQ) [Architecture Encoder Decoder](https://www.youtube.com/watch?time_continue=4&v=dkHdEAJnV_w)
+1. [i. Encoders and Decoders](https://www.youtube.com/watch?v=tDJBDwriJYQ) [ii. Architecture Encoder Decoder](https://www.youtube.com/watch?time_continue=4&v=dkHdEAJnV_w)
 
 
 
