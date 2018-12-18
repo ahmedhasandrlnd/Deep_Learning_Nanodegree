@@ -13,9 +13,9 @@
 1. [Encoding -- Attention Overview](https://www.youtube.com/watch?v=IctAnMaVUKc)
 1. [Decoding -- Attention Overview](https://www.youtube.com/watch?v=DJxiPd585GY)
 1. [Quiz Attention Overview]
-	1. ![Quiz1](images/quiz1.png)
-	1. ![Quiz2](images/quiz2.png)
-	1. ![Quiz3](images/quiz3.png)
+	1. [Quiz1](images/quiz1.png)
+	1. [Quiz2](images/quiz2.png)
+	1. [Quiz3](images/quiz3.png)
 
 
 
