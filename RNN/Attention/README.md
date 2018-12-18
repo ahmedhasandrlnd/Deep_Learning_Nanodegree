@@ -41,7 +41,7 @@
 	1. Attention Is All You Need [Paper](https://arxiv.org/abs/1706.03762)
 	1. Attention is all you need attentional neural network models – Łukasz Kaiser [Talk](https://www.youtube.com/watch?v=rBCqOTEfxvg)
 1. [The Transformer and Self-Attention](https://www.youtube.com/watch?v=F-XN72bQiMQ)
-1. Attention Basics[Notebook](https://github.com/udacity/deep-learning-v2-pytorch/blob/master/attention/Attention_Basics.ipynb)
+1. Attention Basics [Notebook](https://github.com/udacity/deep-learning-v2-pytorch/blob/master/attention/Attention_Basics.ipynb)
 1. Attention Basics [SOLUTION](https://github.com/udacity/deep-learning-v2-pytorch/blob/master/attention/Attention_Basics_Solution.ipynb)
 1. Outro
 
