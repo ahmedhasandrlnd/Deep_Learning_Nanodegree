@@ -29,7 +29,7 @@
 1. [Additive Attention](https://www.youtube.com/watch?time_continue=6&v=93VfVWZ-IvY)
 1. Quiz Additive and Multiplicative Attention
 	1. [Quiz1](images/quiz1b.png) [Answer](images/quiz1b_ans.png)
-	1. [Quiz2](images/quiz2b.png) [Answer](images/quiz2b_ans.png
+	1. [Quiz2](images/quiz2b.png) [Answer](images/quiz2b_ans.png)
 1. [Computer Vision Applications](https://www.youtube.com/watch?v=bhWwc4BYTYc)
 	1. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [pdf](https://arxiv.org/pdf/1502.03044.pdf)
 	1. Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering [pdf](https://arxiv.org/pdf/1707.07998.pdf)
