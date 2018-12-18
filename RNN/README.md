@@ -8,6 +8,7 @@
 1. [Hyperparameters](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN/Hyperparameters)
 1. [Embeddings & Word2Vec](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN/Embedding)
 1. [Sentiment Prediction RNN](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN/Sentiment)
+1. [Attention](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN/Attention)
 
 ## Project
 
