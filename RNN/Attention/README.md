@@ -22,6 +22,14 @@
 	1. [Quiz1](images/quiz1a.png) [Answer](images/quiz1a_ans.png)
 	1. [Quiz2](images/quiz2a.png) [Answer](images/quiz2a_ans.png)
 	1. [Quiz3](images/quiz3a.png) [Answer](images/quiz3a_ans.png)
+1. [Bahdanau and Luong Attention](https://www.youtube.com/watch?time_continue=5&v=2eqIUDjefNg)
+	1. [Bahdanau Attention Paper](https://arxiv.org/abs/1409.0473)
+	1. [Luong Attention Paper](https://arxiv.org/abs/1508.04025)
+1. [Multiplicative Attention](https://www.youtube.com/watch?time_continue=18&v=1-OwCgrx1eQ)
+1. [Additive Attention](https://www.youtube.com/watch?time_continue=6&v=93VfVWZ-IvY)
+1. Quiz Additive and Multiplicative Attention
+	1. [Quiz1](images/quiz1b.png) [Answer](images/quiz1b_ans.png)
+	1. [Quiz2](images/quiz2b.png) [Answer](images/quiz2b_ans.png)
 
 
 
