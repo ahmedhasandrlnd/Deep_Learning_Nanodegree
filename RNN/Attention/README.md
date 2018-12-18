@@ -30,7 +30,7 @@
 1. Quiz Additive and Multiplicative Attention
 	1. [Quiz1](images/quiz1b.png) [Answer](images/quiz1b_ans.png)
 	1. [Quiz2](images/quiz2b.png) [Answer](images/quiz2b_ans.png
-[Computer Vision Applications](https://www.youtube.com/watch?v=bhWwc4BYTYc)
+1. [Computer Vision Applications](https://www.youtube.com/watch?v=bhWwc4BYTYc)
 	1. Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [pdf](https://arxiv.org/pdf/1502.03044.pdf)
 	1. Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering [pdf](https://arxiv.org/pdf/1707.07998.pdf)
 	1. Video Paragraph Captioning Using Hierarchical Recurrent Neural Networks [pdf](https://www.cv-foundation.org/openaccess/content_cvpr_2016/app/S19-04.pdf)
