@@ -12,4 +12,6 @@
 
 ## Project
 
-1. Generate TV Scripts
+1. [Generate TV Scripts](https://github.com/ahmedhasandrlnd/TV_Script_Generation)
+	* Generate your own Bach music using like [DeepBach](https://arxiv.org/pdf/1612.01010.pdf).
+	* Predict seizures in intracranial EEG recordings on [Kaggle](https://www.kaggle.com/c/seizure-prediction).
