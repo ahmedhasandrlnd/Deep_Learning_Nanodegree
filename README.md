@@ -8,3 +8,10 @@
 1. [Recurrent Neural Networks](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN)
 1. Generative Adversarial Networks
 1. Deploying a Model
+
+## Project
+1. Predicting Bike-Sharing Patterns
+1. [Dog-Breed Classifier](https://github.com/ahmedhasandrlnd/dog_breed_classifier)
+1. [Generate TV Scripts](https://github.com/ahmedhasandrlnd/TV_Script_Generation)
+1. Generate Faces
+1. Deploying a Sentiment Analysis Model
