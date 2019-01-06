@@ -3,6 +3,7 @@
 ## Concepts
 
 1. [Introducing Ian GoodFellow](https://www.youtube.com/watch?time_continue=4&v=0mlT7c_xAoc)
+	> GANs are machine learning model that can imagine new things. -Ian Goodfellow
 1. [Applications of GANs](https://www.youtube.com/watch?v=dW2puRa-yqo)
 	1. STACKGAN
 	1. Pix2Pix
