@@ -26,7 +26,7 @@
 	> apply batch normaliztion on  all the real-date in one mini-batch, then apply batch normaliztion separately on another minbatch containing all the generated samples.
 	[Improved training techniques](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5bea0c6a_improved-training-techniques/improved-training-techniques.pdf)
 1. [Generating Fake Images](https://www.youtube.com/watch?v=7KI4yITZLBk)
-GAN examples
+	> GAN examples
 If you'd like to read about even more applications of GANs, I recommend this [Medium article](https://medium.com/@jonathan_hui/gan-some-cool-applications-of-gans-4c9ecca35900) which does an overview of interesting applications!
 The tulip generation model was created by the artist Anna Ridler, and you can read about her data collection method and inspiration in [this article](https://www.fastcompany.com/90237233/this-ai-dreams-in-tulips). Also, check out the [full-length video](https://vimeo.com/287645190)!
 1. [MNIST GAN](https://www.youtube.com/watch?v=g2CDYdc18Jg)
