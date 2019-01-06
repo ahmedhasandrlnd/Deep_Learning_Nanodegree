@@ -45,6 +45,7 @@
 		> standard deviation = 1
 	>Since we want the mean to be 0, we do not want to add an offset (bias) that will deviate from 0. We want the outputs of our convolutional layer to rely only on the coefficient weights.
 1. [Discriminator, Solution](https://www.youtube.com/watch?v=D3E0BDwb2pY)
+	1. [Summary](http://cs231n.github.io/convolutional-networks/)
 	* Accepts a volume of size W1×H1×D1
 	* Requires four hyperparameters:
 		* Number of filters K,
