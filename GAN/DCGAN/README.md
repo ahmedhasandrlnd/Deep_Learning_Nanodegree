@@ -38,7 +38,12 @@
 1. [Scaling, Solution](https://www.youtube.com/watch?v=Aqru1dIMLzU)
 	> method1:x=x*(max-min)+min
 	> method2:x=2*x-1
-
+1. [Discriminator](https://www.youtube.com/watch?time_continue=8&v=bBE-f30JT5I)
+	> Why no bias?
+	> The reason there is no bias for our convolutional layers is because we have batch normalization applied to their outputs. The goal of batch normalization is to get outputs with:
+		> mean = 0
+		> standard deviation = 1
+	>Since we want the mean to be 0, we do not want to add an offset (bias) that will deviate from 0. We want the outputs of our convolutional layer to rely only on the coefficient weights.
 1. [MNIST GAN](https://www.youtube.com/watch?v=g2CDYdc18Jg)
 1. [GAN Notebook & Data](https://www.youtube.com/watch?time_continue=1&v=z7WnnnYyFo4)
 1. Pre-Notebook: MNIST GAN
