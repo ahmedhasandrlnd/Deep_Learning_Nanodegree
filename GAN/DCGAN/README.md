@@ -44,18 +44,15 @@
 		> mean = 0
 		> standard deviation = 1
 	>Since we want the mean to be 0, we do not want to add an offset (bias) that will deviate from 0. We want the outputs of our convolutional layer to rely only on the coefficient weights.
-1. [MNIST GAN](https://www.youtube.com/watch?v=g2CDYdc18Jg)
-1. [GAN Notebook & Data](https://www.youtube.com/watch?time_continue=1&v=z7WnnnYyFo4)
-1. Pre-Notebook: MNIST GAN
-1. Notebook: MNIST GAN
-1. [The Complete Model](https://www.youtube.com/watch?time_continue=1&v=_6i1LjuPddg)
-	> The universal approximation function
-The universal approximation theorem states that a feed-forward network with a single hidden layer is able to approximate certain continuous functions. A few assumptions are made about the functions operating on a subset of real numbers and about the activation function applied to the output of this single layer. But this is very exciting! This theorem is saying that a simple, one-layer neural network can represent a wide variety of interesting functions. You can learn more about the theorem [here](https://en.wikipedia.org/wiki/Universal_approximation_theorem).
-1. [Generator & Discriminator](https://www.youtube.com/watch?v=luR_wKhtIG8)
-1. [Hyperparameters](https://www.youtube.com/watch?time_continue=9&v=u8ntGzeK9Lw)
-1. [Fake and Real Losses](https://www.youtube.com/watch?time_continue=1&v=andSglxiuik)
-1. [Optimization Strategy, Solution](https://www.youtube.com/watch?time_continue=1&v=m5_f084E09A)
-1. [Training Two Networks](https://www.youtube.com/watch?time_continue=2&v=pPdyFMnxNkA)
-1. [Training Solution](https://www.youtube.com/watch?time_continue=8&v=uRNfacJ90bI)
-
-	
+1. [Discriminator, Solution](https://www.youtube.com/watch?v=D3E0BDwb2pY)
+	* Accepts a volume of size W1×H1×D1
+	* Requires four hyperparameters:
+		* Number of filters K,
+		* their spatial extent F,
+		* the stride S,
+		* the amount of zero padding P.
+	* Produces a volume of size W2×H2×D2 where:
+		* W2=(W1−F+2P)/S+1
+		* H2=(H1−F+2P)/S+1 (i.e. width and height are computed equally by symmetry)
+		* D2=K
+	* With parameter sharing, it introduces F⋅F⋅D1 weights per filter, for a total of (F⋅F⋅D1)⋅K weights and K biases.
