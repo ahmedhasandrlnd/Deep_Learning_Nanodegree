@@ -45,6 +45,7 @@
 		> standard deviation = 1
 	>Since we want the mean to be 0, we do not want to add an offset (bias) that will deviate from 0. We want the outputs of our convolutional layer to rely only on the coefficient weights.
 1. [Discriminator, Solution](https://www.youtube.com/watch?v=D3E0BDwb2pY)
+	![Discriminator](images/discriminator.png)
 	1. [Summary](http://cs231n.github.io/convolutional-networks/)
 	* Accepts a volume of size W1×H1×D1
 	* Requires four hyperparameters:
@@ -57,3 +58,6 @@
 		* H2=(H1−F+2P)/S+1 (i.e. width and height are computed equally by symmetry)
 		* D2=K
 	* With parameter sharing, it introduces F⋅F⋅D1 weights per filter, for a total of (F⋅F⋅D1)⋅K weights and K biases.
+1. [Generator](https://www.youtube.com/watch?time_continue=2&v=zRajfkO-J7s)
+	![Generator](images/generator.png)
+1. [Generator, Solution](https://www.youtube.com/watch?v=cznaE5TlKEo)
