@@ -29,3 +29,6 @@
 		* A simple CycleGAN produces low-resolution images, though there is some research around [high-resolution GANs](https://github.com/NVIDIA/pix2pixHD)
 		* It occasionally fails! (One such case is pictured below.)
 		![fail](images/horse2zebra_fail.png)
+1. [Beyond CycleGANs](https://www.youtube.com/watch?v=jwbloZnZcv0)
+	1. [Augmented CycleGAN](https://arxiv.org/abs/1802.10151)
+	1. Implementation of [StarGAN](https://github.com/yunjey/StarGAN)
