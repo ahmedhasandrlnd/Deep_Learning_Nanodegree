@@ -21,4 +21,4 @@
 	> Many of these image are collected in the [Pix2Pix and CycleGAN Github repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) developed by Jun-Yan.
 	And you can read the [CycleGAN paper, here](https://arxiv.org/pdf/1703.10593.pdf).
 1. [Cycle Consistency Loss](https://www.youtube.com/watch?time_continue=25&v=pPbWXmVgY0k)
-	2. [Quiz]{iamges/quiz_cyclegan.png}
+	2. [Quiz](iamges/quiz_cyclegan.png)
