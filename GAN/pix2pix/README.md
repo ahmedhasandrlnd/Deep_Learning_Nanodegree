@@ -22,3 +22,10 @@
 	And you can read the [CycleGAN paper, here](https://arxiv.org/pdf/1703.10593.pdf).
 1. [Cycle Consistency Loss](https://www.youtube.com/watch?time_continue=25&v=pPbWXmVgY0k)
 	1. [Quiz](iamges/quiz_cyclegan.png)
+1. [Why Does This Work?](https://www.youtube.com/watch?v=q7SP89u02L0)
+	> Model Shortcomings
+	> As with any new formulation, it's important not only to learn about its strengths and capabilities, but also, its weaknesses. A CycleGAN has a few shortcomings:
+		* It will only show one version of a transformed output even if there are multiple, possible outputs.
+		* A simple CycleGAN produces low-resolution images, though there is some research around [high-resolution GANs](https://github.com/NVIDIA/pix2pixHD)
+		* It occasionally fails! (One such case is pictured below.)
+		![fail](images/horse2zebra_fail.png)
