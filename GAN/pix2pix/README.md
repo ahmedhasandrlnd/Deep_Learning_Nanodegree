@@ -8,5 +8,5 @@
 	1. Face swap with [CycleGAN Face-off](https://arxiv.org/pdf/1712.03451.pdf)
 1. [Designing Loss Functions](https://www.youtube.com/watch?time_continue=4&v=YL1kKWHr7Gc)
 	> The objective function we've used the most in this program is cross entropy loss, which is a negative log loss applied to the output of a softmax layer. For a binary classification problem, as in real or fake image data, we can calculate the binary cross entropy loss as:
-	-[y\log(\hat{y})+(1-y)\log(1-\hat{y})]	
+	> -[y\log(\hat{y})+(1-y)\log(1-\hat{y})	
 	In other words, a sum of two log losses!
