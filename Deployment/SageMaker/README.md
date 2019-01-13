@@ -26,5 +26,22 @@
 	> Session - A session is a special object that allows you to do things like manage data in S3 and create and train any machine learning models; you can read more about the functions that can be called on a session, at this documentation. The upload_data function should be close to the top of the list! You'll also see functions like train, tune, and create_model all of which we'll go over in more detail, later.
 	> Role - Sometimes called the execution role, this is the IAM role that you created when you created your notebook instance. The role basically defines how data that your notebook uses/creates will be stored. You can even try printing out the role with print(role) to see the details of this creation.
 	> In addition, we will be using a random tree model. In particular, we will be using the [XGBoost algorithm](https://xgboost.readthedocs.io/en/latest/)
+	[XGBoost paper](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5bfdf09f_xgboost/xgboost.pdf)
 	> Batch Transform is the method we will be using to test our model once we have trained it. 
 	> High Level describes the API we will be using to get SageMaker to perform various machine learning tasks. In particular, it refers to the Python SDK whose documentation can be found here: https://sagemaker.readthedocs.io/en/latest/. This high level approach simplifies a lot of the details when working with SageMaker and can be very useful.
+1. [Boston Housing Example - Training the Model](https://www.youtube.com/watch?v=rqYlkCTLmIY)
+	> You can read the documentation on [estimators](https://sagemaker.readthedocs.io/en/latest/estimators.html) for more information about this object. Essentially, the Estimator is an object that specifies some details about how a model will be trained. It gives you the ability to create and deploy a model.
+	> There's a list of [winning XGBoost-based solutions](https://github.com/dmlc/xgboost/tree/master/demo#machine-learning-challenge-winning-solutions) to a variety of competitions, at the linked XGBoost repository.
+	> A training job is used to train a specific estimator.
+
+	> When you request a training job to be executed you need to provide a few items:
+
+		* A location on S3 where your training (and possibly validation) data is stored,
+		* A location on S3 where the resulting model will be stored (this data is called the model artifacts),
+		* A location of a docker container (certainly this is the case if using a built in algorithm) to be used for training
+		* A description of the compute instance that should be used.
+
+
+	> You can see a high-level (which we've just walked through) example of training a KMeans estimator, in this [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-train-model-create-training-job.html). This high-level example defines a KMeans estimator, and uses .fit() to train that model. Later, we'll show you a low-level model, in which you have to specify many more details about the training job.
+1. [Boston Housing Example - Testing the Model](https://www.youtube.com/watch?time_continue=8&v=CZRKuS_qYtg)
+	> You can read more about the transform and wait functions, in the [transformer documentation](https://sagemaker.readthedocs.io/en/latest/transformer.html). In this case, the transformer is used to create a transform job and evaluate a trained model. The transform function takes in the location of some test data, and some information about how that test data is formatted.
