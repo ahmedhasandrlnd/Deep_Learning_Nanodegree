@@ -24,9 +24,12 @@
 1. Is Everything Set Up?
 1. [Boston Housing Example: Getting the data Ready](https://www.youtube.com/watch?v=78y5cTR-JxM)
 	> Session - A session is a special object that allows you to do things like manage data in S3 and create and train any machine learning models; you can read more about the functions that can be called on a session, at this documentation. The upload_data function should be close to the top of the list! You'll also see functions like train, tune, and create_model all of which we'll go over in more detail, later.
+
 	> Role - Sometimes called the execution role, this is the IAM role that you created when you created your notebook instance. The role basically defines how data that your notebook uses/creates will be stored. You can even try printing out the role with print(role) to see the details of this creation.
+
 	> In addition, we will be using a random tree model. In particular, we will be using the [XGBoost algorithm](https://xgboost.readthedocs.io/en/latest/)
 	[XGBoost paper](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5bfdf09f_xgboost/xgboost.pdf)
+	
 	> Batch Transform is the method we will be using to test our model once we have trained it. 
 	> High Level describes the API we will be using to get SageMaker to perform various machine learning tasks. In particular, it refers to the Python SDK whose documentation can be found here: https://sagemaker.readthedocs.io/en/latest/. This high level approach simplifies a lot of the details when working with SageMaker and can be very useful.
 1. [Boston Housing Example - Training the Model](https://www.youtube.com/watch?v=rqYlkCTLmIY)
