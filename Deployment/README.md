@@ -3,7 +3,7 @@
 ## Lessons
 
 1. Introduction to Deployment
-1. Building a Model using SageMaker
+1. [Building a Model using SageMaker](SageMaker/)
 1. Deploying and Using a Model
 1. Hyperparameter Tuning
 1. Updating a Model
