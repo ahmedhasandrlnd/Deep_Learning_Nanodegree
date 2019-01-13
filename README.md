@@ -7,7 +7,7 @@
 1. Convolutional Neural Networks
 1. [Recurrent Neural Networks](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/RNN)
 1. [Generative Adversarial Networks](https://github.com/ahmedhasandrlnd/Deep_Learning_Nanodegree/tree/master/GAN)
-1. Deploying a Model
+1. [Deploying a Model](Deployment/)
 
 ## Project
 1. [Predicting Bike-Sharing Patterns](https://github.com/ahmedhasandrlnd/bike_sharing_pattern)
