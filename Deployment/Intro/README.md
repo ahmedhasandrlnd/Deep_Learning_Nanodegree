@@ -29,3 +29,11 @@
 	> Google Cloud Platform (GCP) discusses their definition of [Cloud Computing](https://cloud.google.com/what-is-cloud-computing/).
 	> Microsoft Azure (Azure) discusses their definition of [Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/).
 1. Why Cloud Computing? [Quiz2](images/quiz2.png) [Quiz3](images/quiz3.png)
+1. [Machine Learning Applications](https://www.youtube.com/watch?time_continue=25&v=Q4rgQo6ofoc)
+1. Paths to Deployment
+	1. Python model is recoded into the programming language of the production environment.
+ 	1. Model is coded in Predictive Model Markup Language (PMML) or Portable Format Analytics (PFA).
+ 	1. Python model is converted into a format that can be used in the production environment. The third method that's most similar to what’s used for deployment within Amazon’s SageMaker.
+1. Paths to Deployment [Quiz](images/quiz4.png)  
+
+
