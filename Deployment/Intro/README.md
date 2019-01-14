@@ -13,15 +13,15 @@
 1. [Quiz-Machine Learning Workflow](images/quiz1.png)
 1. What is Cloud Computing & Why Would We Use It?
 	> Cloud computing can simply be thought of as transforming an Information Technology (IT) product into a service. With our vacation photos example, we transformed storing photos on an IT product, the flash drive; into storing them using a service, like Google Drive.
-	> Benefits
-	> * Reduced Investments and Proportional Costs (providing cost reduction)
-	> * Increased Scalability (providing simplified capacity planning)
-	> * Increased Availability and Reliability (providing organizational agility)
-	> Risks
-	> * (Potential) Increase in Security Vulnerabilities 
-	> * Reduced Operational Governance Control (over cloud resources)
-	> * Limited Portability Between Cloud Providers
-	> * Multi-regional Compliance and Legal Issues
+	* Benefits
+	> 1. Reduced Investments and Proportional Costs (providing cost reduction)
+	> 1. Increased Scalability (providing simplified capacity planning)
+	> 1. Increased Availability and Reliability (providing organizational agility)
+	* Risks
+	> 1. (Potential) Increase in Security Vulnerabilities 
+	> 1. Reduced Operational Governance Control (over cloud resources)
+	> 1. Limited Portability Between Cloud Providers
+	> 1. Multi-regional Compliance and Legal Issues
 	> National Institute of Standards and Technology formal definition of [Cloud Computing](https://csrc.nist.gov/publications/detail/sp/800-145/final).
 	> Kavis, M. (2014). Architecting the Cloud: Design Decisions for Cloud Computing Service Models. Hoboken, NJ: Wiley. Chapter 3 provides the worst practices of cloud computing which highlights both risks and benefits of cloud computing. Chapter 9 provides the security responsibilities by service model.
 	> Amazon Web Services (AWS) discusses their definition of [Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/).
