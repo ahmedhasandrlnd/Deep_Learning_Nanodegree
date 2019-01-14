@@ -68,6 +68,14 @@
 	> If the machine learning platform fails to offer an automatic hyperparameter option, one option is to use methods from scikit-learn Python library for hyperparameter tuning. Scikit-learn is a free machine learning Python library that includes methods that help with [hyperparameter tuning](https://scikit-learn.org/stable/modules/grid_search.html#).
 		![Hyper-parameters](images/modeling.png)
 		![Deployment](images/deployment.png)
+1. Characteristics of Modeling & Deployment [Quiz1](images/quiz9.png) [Quiz2](images/quiz10.png)
+1. [Comparing Cloud Providers](https://classroom.udacity.com/nanodegrees/nd101/parts/5b7b3a4c-10eb-4293-b821-ec6f539524dc/modules/4e6fc46e-3a04-4eaa-a1d4-396121be46ec/lessons/bc1c7466-0a20-461c-ad95-003471fe9aac/concepts/39fe3346-579c-408a-9af7-d6898ec19650)
+	* [Amazon Web Services (AWS) SageMaker](https://aws.amazon.com/sagemaker/)
+	* [Google Cloud Platform (GCP) ML Engine](https://cloud.google.com/ml-engine/) 
+	* [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/#platform)
+	* [Paperspace](https://www.paperspace.com/ml)
+	* [Cloud Foundry](https://www.cloudfoundry.org/)
+1. Comparing Cloud Providers [Quiz1](images/quiz11.png)
 
 
 
