@@ -22,6 +22,7 @@
 	> 1. Reduced Operational Governance Control (over cloud resources)
 	> 1. Limited Portability Between Cloud Providers
 	> 1. Multi-regional Compliance and Legal Issues
+	* Ref
 	> National Institute of Standards and Technology formal definition of [Cloud Computing](https://csrc.nist.gov/publications/detail/sp/800-145/final).
 	> Kavis, M. (2014). Architecting the Cloud: Design Decisions for Cloud Computing Service Models. Hoboken, NJ: Wiley. Chapter 3 provides the worst practices of cloud computing which highlights both risks and benefits of cloud computing. Chapter 9 provides the security responsibilities by service model.
 	> Amazon Web Services (AWS) discusses their definition of [Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/).
