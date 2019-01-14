@@ -57,6 +57,18 @@
 	> This container script is simply the instructions (algorithm) that is used to create a container; for Docker these container scripts are referred to as dockerfiles.
 	> This is shown with the image below, where the container engine uses a container script to create a container for an application to run within. These container script files can be stored in repositories, which provide a simple means to share and replicate containers. For Docker, the [Docker Hub](https://hub.docker.com/explore/) is the official repository for storing and sharing dockerfiles. Here's an example of a [dockerfile](https://github.com/pytorch/pytorch/blob/master/docker/pytorch/Dockerfile) that creates a docker container with Python 3.6 and PyTorch installed.
 		![Container](images/container.png)
+1. Containers [quiz](images/quiz8.png)
+1. [Containers - Straight From the Experts](https://www.youtube.com/watch?v=XimuK3WHOH4)
+1. Characteristics of Modeling & Deployment
+	* Hyperparameters
+	> In machine learning, a hyperparameter is a parameter whose value cannot be estimated from the data.
+	> Specifically, a hyperparameter is not directly learned through the estimators; therefore, their value must be set by the model developer.
+	> This means that hyperparameter tuning for optimization is an important part of model training.
+	> Often cloud platform machine learning services provide methods that allow for automatic hyperparameter tuning for use with model training.
+	> If the machine learning platform fails to offer an automatic hyperparameter option, one option is to use methods from scikit-learn Python library for hyperparameter tuning. Scikit-learn is a free machine learning Python library that includes methods that help with [hyperparameter tuning](https://scikit-learn.org/stable/modules/grid_search.html#).
+		![Hyper-parameters](images/modeling.png)
+		![Deployment](images/deployment.png)
+
 
 
 
