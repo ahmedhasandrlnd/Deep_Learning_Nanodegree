@@ -29,7 +29,7 @@
 
 	> In addition, we will be using a random tree model. In particular, we will be using the [XGBoost algorithm](https://xgboost.readthedocs.io/en/latest/)
 	[XGBoost paper](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5bfdf09f_xgboost/xgboost.pdf)
-	
+
 	> Batch Transform is the method we will be using to test our model once we have trained it. 
 	> High Level describes the API we will be using to get SageMaker to perform various machine learning tasks. In particular, it refers to the Python SDK whose documentation can be found here: https://sagemaker.readthedocs.io/en/latest/. This high level approach simplifies a lot of the details when working with SageMaker and can be very useful.
 1. [Boston Housing Example - Training the Model](https://www.youtube.com/watch?v=rqYlkCTLmIY)
@@ -48,3 +48,16 @@
 	> You can see a high-level (which we've just walked through) example of training a KMeans estimator, in this [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-train-model-create-training-job.html). This high-level example defines a KMeans estimator, and uses .fit() to train that model. Later, we'll show you a low-level model, in which you have to specify many more details about the training job.
 1. [Boston Housing Example - Testing the Model](https://www.youtube.com/watch?time_continue=8&v=CZRKuS_qYtg)
 	> You can read more about the transform and wait functions, in the [transformer documentation](https://sagemaker.readthedocs.io/en/latest/transformer.html). In this case, the transformer is used to create a transform job and evaluate a trained model. The transform function takes in the location of some test data, and some information about how that test data is formatted.
+1. [Mini-Project: Building Your First Model](https://www.youtube.com/watch?time_continue=4&v=ouLvRqMMbbY)
+	> If you look at the [deployment Gitub](https://github.com/udacity/sagemaker-deployment) repository, inside of the Mini-Projects folder is a notebook called IMDB Sentiment Analysis - XGBoost (Batch Transform).ipynb. Inside of the notebook are some tasks for you to complete.
+1. [Mini-Project: Solution](https://www.youtube.com/watch?v=utUxiW-tZrY)
+1. [Boston Housing In-Depth - Data Preparation](https://www.youtube.com/watch?v=TA-Ms7djeL0)
+	> In the previous notebooks we looked at, we use the Python SDK to interact with SageMaker, calling this the high-level approach. Now we will look at the low level approach where we describe different tasks we want SageMaker to perform. The documentation for the low level approach can be found in the [Amazon SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
+
+	> You will notice as we go through the details that describing the different tasks we want SageMaker to do can be quite involved. However there is a reason to understand it!
+
+	> The high level approach makes developing new models very straightforward, requiring very little code. The reason this can be done is that certain decisions have been made for you. The low level approach allows you to be far more particular in how you want the various tasks executed, which is good for when you want to do something a little more complicated.
+1. [Boston Housing In-Depth - Creating a Training Job](https://www.youtube.com/watch?time_continue=4&v=1CIbWNUSZXo)
+1. [Boston Housing In-Depth - Building a Model](https://www.youtube.com/watch?time_continue=28&v=JJyVsmcV2M4)
+1. [Boston Housing In-Depth - Creating a Batch Transform Job](https://www.youtube.com/watch?time_continue=32&v=JwPJMYRl3nw)
+1. Summary
