@@ -11,3 +11,20 @@
 	* Google Cloud Platform (GCP) discusses their definition of the [Machine Learning Workflow](https://cloud.google.com/ml-engine/docs/tensorflow/ml-solutions-overview).
 	* Microsoft Azure (Azure) discusses their definition of the [Machine Learning Workflow](https://docs.microsoft.com/en-us/azure/machine-learning/service/overview-what-is-azure-ml).
 1. [Quiz-Machine Learning Workflow](images/quiz1.png)
+1. What is Cloud Computing & Why Would We Use It?
+	> Cloud computing can simply be thought of as transforming an Information Technology (IT) product into a service. With our vacation photos example, we transformed storing photos on an IT product, the flash drive; into storing them using a service, like Google Drive.
+	> Benefits
+	> * Reduced Investments and Proportional Costs (providing cost reduction)
+	> * Increased Scalability (providing simplified capacity planning)
+	> * Increased Availability and Reliability (providing organizational agility)
+	> Risks
+	> * (Potential) Increase in Security Vulnerabilities 
+	> * Reduced Operational Governance Control (over cloud resources)
+	> * Limited Portability Between Cloud Providers
+	> * Multi-regional Compliance and Legal Issues
+	> National Institute of Standards and Technology formal definition of [Cloud Computing](https://csrc.nist.gov/publications/detail/sp/800-145/final).
+	> Kavis, M. (2014). Architecting the Cloud: Design Decisions for Cloud Computing Service Models. Hoboken, NJ: Wiley. Chapter 3 provides the worst practices of cloud computing which highlights both risks and benefits of cloud computing. Chapter 9 provides the security responsibilities by service model.
+	> Amazon Web Services (AWS) discusses their definition of [Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/).
+	> Google Cloud Platform (GCP) discusses their definition of [Cloud Computing](https://cloud.google.com/what-is-cloud-computing/).
+	> Microsoft Azure (Azure) discusses their definition of [Cloud Computing](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/).
+1. Why Cloud Computing? [Quiz2](images/quiz2.png) [Quiz3](images/quiz3.png)
