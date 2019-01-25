@@ -13,5 +13,5 @@
 1. [Predicting Bike-Sharing Patterns](https://github.com/ahmedhasandrlnd/bike_sharing_pattern)
 1. [Dog-Breed Classifier](https://github.com/ahmedhasandrlnd/dog_breed_classifier)
 1. [Generate TV Scripts](https://github.com/ahmedhasandrlnd/TV_Script_Generation)
-1. Generate Faces
+1. [Generate Faces](https://github.com/ahmedhasandrlnd/Face_Generation)
 1. Deploying a Sentiment Analysis Model
