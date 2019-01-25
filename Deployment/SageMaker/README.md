@@ -36,7 +36,11 @@
 	> You can read the documentation on [estimators](https://sagemaker.readthedocs.io/en/latest/estimators.html) for more information about this object. Essentially, the Estimator is an object that specifies some details about how a model will be trained. It gives you the ability to create and deploy a model.
 	> There's a list of [winning XGBoost-based solutions](https://github.com/dmlc/xgboost/tree/master/demo#machine-learning-challenge-winning-solutions) to a variety of competitions, at the linked XGBoost repository.
 	> A training job is used to train a specific estimator.
-
+	> When you request a training job to be executed you need to provide a few items:
+		* A location on S3 where your training (and possibly validation) data is stored,
+		* A location on S3 where the resulting model will be stored (this data is called the model artifacts),
+		* A location of a docker container (certainly this is the case if using a built in algorithm) to be used for training
+		* A description of the compute instance that should be used.
 	> When you request a training job to be executed you need to provide a few items:
 
 		* A location on S3 where your training (and possibly validation) data is stored,
