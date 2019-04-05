@@ -32,15 +32,18 @@ The tulip generation model was created by the artist Anna Ridler, and you can re
 1. [MNIST GAN](https://www.youtube.com/watch?v=g2CDYdc18Jg)
 1. [GAN Notebook & Data](https://www.youtube.com/watch?time_continue=1&v=z7WnnnYyFo4)
 1. Pre-Notebook: MNIST GAN
-1. Notebook: MNIST GAN
+1. [Notebook: MNIST GAN](MNIST_GAN_Exercise.ipynb) [Solution](MNIST_GAN_Exercise.ipynb)
 1. [The Complete Model](https://www.youtube.com/watch?time_continue=1&v=_6i1LjuPddg)
 	> The universal approximation function
 The universal approximation theorem states that a feed-forward network with a single hidden layer is able to approximate certain continuous functions. A few assumptions are made about the functions operating on a subset of real numbers and about the activation function applied to the output of this single layer. But this is very exciting! This theorem is saying that a simple, one-layer neural network can represent a wide variety of interesting functions. You can learn more about the theorem [here](https://en.wikipedia.org/wiki/Universal_approximation_theorem).
 1. [Generator & Discriminator](https://www.youtube.com/watch?v=luR_wKhtIG8)
 1. [Hyperparameters](https://www.youtube.com/watch?time_continue=9&v=u8ntGzeK9Lw)
 1. [Fake and Real Losses](https://www.youtube.com/watch?time_continue=1&v=andSglxiuik)
+	![BCELoss](BCELoss.PNG)
+	> You can read the [PyTorch documentation, here](https://pytorch.org/docs/stable/nn.html#bceloss).
 1. [Optimization Strategy, Solution](https://www.youtube.com/watch?time_continue=1&v=m5_f084E09A)
 1. [Training Two Networks](https://www.youtube.com/watch?time_continue=2&v=pPdyFMnxNkA)
+	![Eval](eval.PNG)
 1. [Training Solution](https://www.youtube.com/watch?time_continue=8&v=uRNfacJ90bI)
 
 	
