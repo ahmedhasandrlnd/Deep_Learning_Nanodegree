@@ -54,3 +54,28 @@ The distribution of such data should resemble a [Gaussian function](http://mathw
 1. [MLP Structure & Class Scores](https://www.youtube.com/watch?v=fP0Odiai8sk&feature=emb_logo)
 1. [Do Your Research](https://www.youtube.com/watch?v=CR4JeAn1fgk&feature=emb_logo)
 1. [Loss & Optimization](https://www.youtube.com/watch?v=BmPDtSXv18w&feature=emb_logo)
+1. [Defining a Network in PyTorch](https://www.youtube.com/watch?time_continue=2&v=9gvaQvyfLfY&feature=emb_logo)
+![Q](q2.JPG)
+1. [Training the Network](https://www.youtube.com/watch?time_continue=1&v=904bfqibcCw&feature=emb_logo)
+![Q](q3.JPG)
+1. Pre-Notebook: MLP Classification, Exercise
+![Q](q4.JPG)
+1. [One Solution](https://www.youtube.com/watch?v=7q37WPjQhDA&feature=emb_logo)
+![Q](q5.JPG)
+Check out the [first research paper](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) to propose dropout as a technique for overfitting.
+If you'd like more information on activation functions, check out this [website](http://cs231n.github.io/neural-networks-1/#actfun).
+1. [Model Validation](https://www.youtube.com/watch?v=b5934VsV3SA&feature=emb_logo)
+1. [Validation Loss](https://www.youtube.com/watch?v=uGPP_-pbBsc&feature=emb_logo)
+![Q](q6.JPG)
+1. [Image Classification Steps](https://www.youtube.com/watch?v=UHFBnitKraA&feature=emb_logo)
+1. [MLPs vs CNNs](https://www.youtube.com/watch?v=Q7CR3cCOtJQ&feature=emb_logo)
+Check out the performance of [other classifiers](http://yann.lecun.com/exdb/mnist/).
+1. [Local Connectivity](https://www.youtube.com/watch?v=z9wiDg0w-Dc&feature=emb_logo)
+1. [Filters and the Convolutional Layer](https://www.youtube.com/watch?v=x_dhnhUzFNo&feature=emb_logo)
+1. [Filters & Edges](https://www.youtube.com/watch?v=hfqNqcEU6uI&feature=emb_logo)
+```
+Filters
+To detect changes in intensity in an image, you’ll be using and creating specific image filters that look at groups of pixels and react to alternating patterns of dark/light pixels. These filters produce an output that shows edges of objects and differing textures.
+
+So, let’s take a closer look at these filters and see when they’re useful in processing images and identifying traits of interest.
+```
