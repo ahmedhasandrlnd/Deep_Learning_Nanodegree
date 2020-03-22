@@ -79,3 +79,93 @@ To detect changes in intensity in an image, you’ll be using and creating speci
 
 So, let’s take a closer look at these filters and see when they’re useful in processing images and identifying traits of interest.
 ```
+1. Frequency in Images
+![Q](q7.JPG)
+![Q](q8.JPG)
+1. [High-pass Filters](https://www.youtube.com/watch?v=OpcFn_H2V-Q&feature=emb_logo)
+![Q](q9.JPG)
+1. Quiz: Kernels
+![Q](q10.JPG)
+1. OpenCV & Creating Custom Filters
+![Q](q11.JPG)
+1. Convolutional Layer
+![Q](q12.JPG)
+1. [Convolutional Layers (Part 2)](https://www.youtube.com/watch?v=RnM1D-XI--8&feature=emb_logo)
+```
+The Jupyter notebook described in the video can be accessed from the deep-learning-v2-pytorch GitHub respository linked [here](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/convolutional-neural-networks). Navigate to the conv-visualization/ folder and open conv_visualization.ipynb.
+
+Optional Resource
+Check out [this website](http://setosa.io/ev/image-kernels/), which allows you to create your own filter. You can then use your webcam as input to a convolutional layer and visualize the corresponding activation map!
+```
+1. [Stride and Padding](https://www.youtube.com/watch?v=GmStpNi8jBI&feature=emb_logo)
+1. [Pooling Layers](https://www.youtube.com/watch?v=_Ok5xZwOtrk&feature=emb_logo)
+![P](p1.JPG)
+1. Capsule Networks
+![P](p2.JPG)
+![P](p3.JPG)
+Resources
+You can learn more about capsules, in this [blog post](https://cezannec.github.io/Capsule_Networks/).
+And experiment with an implementation of a capsule network in PyTorch, at this [github repo](https://github.com/cezannec/capsule_net_pytorch).
+Supporting Materials
+[Dynamic routing between capsules, hinton et al](https://video.udacity-data.com/topher/2018/November/5bfdca4f_dynamic-routing/dynamic-routing.pdf)
+1. [Increasing Depth](https://www.youtube.com/watch?v=YKif1KNpWeE&feature=emb_logo)
+1. [CNNs for Image Classification](https://www.youtube.com/watch?v=smaw5GqRaoY&feature=emb_logo)
+![P](p4.JPG)
+![P](p5.JPG)
+[Read more about Conv2d in the](https://pytorch.org/docs/stable/nn.html#conv2d) documentation.
+Pooling Layers
+Maxpooling layers commonly come after convolutional layers to shrink the x-y dimensions of an input, read more about pooling layers in PyTorch, [here](https://pytorch.org/docs/stable/nn.html#maxpool2d).
+1. Convolutional Layers in PyTorch
+![P](p6.JPG)
+![P](p7.JPG)
+![P](p8.JPG)
+![P](p9.JPG)
+![P](p10.JPG)
+1. [Feature Vector](https://www.youtube.com/watch?v=g6QuiVno8zI&feature=emb_logo)
+1. Pre-Notebook: CNN Classification
+![W](w1.JPG)
+1. [CIFAR Classification Example](https://www.youtube.com/watch?v=FF_EmZ2sf2w&feature=emb_logo)
+```
+model.eval()
+There is an omission in the above code: including model.eval() !
+
+model.eval() will set all the layers in your model to evaluation mode. This affects layers like dropout layers that turn "off" nodes during training with some probability, but should allow every node to be "on" for evaluation. So, you should set your model to evaluation mode before testing or validating your model and set it to model.train() (training mode) only during the training loop.
+
+This is reflected in the following notebook code and in our [Github repository](https://github.com/udacity/deep-learning-v2-pytorch/tree/master/convolutional-neural-networks/cifar-cnn).
+```
+1. [CNNs in PyTorch](https://www.youtube.com/watch?v=GNxzWfiz3do&feature=emb_logo)
+Check out the CIFAR-10 Competition's winning [architecture](http://blog.kaggle.com/2015/01/02/cifar-10-competition-winners-interviews-with-dr-ben-graham-phil-culliton-zygmunt-zajac/)!
+1. [Image Augmentation](https://www.youtube.com/watch?v=zQnx2jZmjTA&feature=emb_logo)
+1. [Augmentation Using Transformations](https://www.youtube.com/watch?v=J_gjHVt9pVw&feature=emb_logo)
+You can take a look at the complete augmentation code in the previous notebook directory, or, directly in the Github [repository](https://github.com/udacity/deep-learning-v2-pytorch/blob/master/convolutional-neural-networks/cifar-cnn/cifar10_cnn_augmentation.ipynb)
+1. [Groundbreaking CNN Architectures](https://www.youtube.com/watch?v=GdYOqihgb2k&feature=emb_logo)
+Optional Resources
+Check out the [AlexNet](Optional Resources
+Check out the AlexNet paper!
+Read more about VGGNet here.
+The ResNet paper can be found here.
+Here's the Keras documentation for accessing some famous CNN architectures.
+Read this detailed treatment of the vanishing gradients problem.
+Here's a GitHub repository containing benchmarks for different CNN architectures.
+Visit the ImageNet Large Scale Visual Recognition Competition (ILSVRC) website.) paper!
+Read more about [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) here.
+The [ResNet](https://arxiv.org/pdf/1512.03385v1.pdf) paper can be found here.
+Here's the Keras [documentation](https://keras.io/applications/) for accessing some famous CNN architectures.
+Read this [detailed treatment](http://neuralnetworksanddeeplearning.com/chap5.html) of the vanishing gradients problem.
+Here's a [GitHub repository](https://github.com/jcjohnson/cnn-benchmarks) containing benchmarks for different CNN architectures.
+Visit the [ImageNet Large Scale Visual Recognition Competition (ILSVRC)](http://www.image-net.org/challenges/LSVRC/) website.
+1. [Visualizing CNNs (Part 1)](https://www.youtube.com/watch?v=mnqS_EhEZVg&feature=emb_logo)
+(REALLY COOL) Optional Resources
+If you would like to know more about interpreting CNNs and convolutional layers in particular, you are encouraged to check out these resources:
+Here's a [section](http://cs231n.github.io/understanding-cnn/) from the Stanford's CS231n course on visualizing what CNNs learn.
+Check out this [demonstration](https://aiexperiments.withgoogle.com/what-neural-nets-see) of a cool [OpenFrameworks](http://openframeworks.cc/) app that visualizes CNNs in real-time, from user-supplied video!
+Here's a [demonstration](https://www.youtube.com/watch?v=AgkfIQ4IGaM&t=78s) of another visualization tool for CNNs. If you'd like to learn more about how these visualizations are made, check out this [video](https://www.youtube.com/watch?v=ghEmQSxT6tw&t=5s).
+Read this [Keras blog post](https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html) on visualizing how CNNs see the world. In this post, you can find an accessible introduction to Deep Dreams, along with code for writing your own deep dreams in Keras. When you've read that:
+Also check out this [music video](https://www.youtube.com/watch?v=XatXy6ZhKZw) that makes use of Deep Dreams (look at 3:15-3:40)!
+Create your own Deep Dreams (without writing any code!) using this [website](https://deepdreamgenerator.com/).
+If you'd like to read more about interpretability of CNNs:
+Here's an [article](https://blog.openai.com/adversarial-example-research/) that details some dangers from using deep learning models (that are not yet interpretable) in real-world applications.
+There's a lot of active research in this area. [These authors](https://arxiv.org/abs/1611.03530) recently made a step in the right direction.
+1. Visualizing CNNs (Part 2)
+The CNN we will look at is trained on ImageNet as described in [this paper](http://www.matthewzeiler.com/pubs/arxive2013/eccv2014.pdf) by Zeiler and Fergus. In the images below (from the same paper), we’ll see what each layer in this network detects and see how each layer detects more and more complex ideas.
+1. [Summary of CNNs](https://www.youtube.com/watch?v=Te9QCvhx6N8&feature=emb_logo)
